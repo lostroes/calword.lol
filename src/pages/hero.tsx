@@ -55,21 +55,21 @@ const Hero = () => {
       </div>
       <div className="three">
         <div className="col">
-          <h2>Discord Nuker</h2>
+          <h2>Discord Nuker [FREE]</h2>
           <small>Basic Discord Nuker with 15+ options.</small>
           <a href="">
             <button className="download">Updating... </button>
           </a>
         </div>
         <div className="col">
-          <h2>Our Discord </h2>
+          <h2>Our Discord</h2>
           <small>Here you can buy premium and ask our staff for help.</small>
           <a href="https://discord.gg/FUdrWQqQMH">
             <button className="download">Join Us </button>
           </a>
         </div>
         <div className="col">
-        <h2>Server Booster </h2>
+        <h2>Server Booster [FREE]</h2>
           <small>Does what you expect from it [Source Code]</small>
           <a href="https://cdn.discordapp.com/attachments/1058517809849704469/1076548428810698845/booster.rar">
             <button className="download">Download </button>
