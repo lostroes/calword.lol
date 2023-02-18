@@ -1,0 +1,184 @@
+.hero {
+  display: flex;
+  overflow: hidden; /* Hide scrollbars */
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  background: #1b1a1a;
+  }
+
+.hero svg {
+  height: 4rem;
+  width: 4rem;
+  fill: #383b61;
+}
+
+.hero .col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start !important;
+  gap: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  max-width: 80rem;
+  color: #383b61;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  max-width: 80rem;
+  color: #383b61;
+}
+
+.hero small {
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: 220rem;
+  max-height: 220rem;
+  color: #6a7076;
+}
+
+.hero small.second {
+  text-align: start;
+  max-width: 80rem;
+  max-height: 80rem;
+  fill: #383b61;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .three {
+    flex-direction: column;
+  }
+  .hero svg {
+    display: none;
+  }
+  .hero h1 {
+    text-align: center;
+  }
+  .hero small {
+    text-align: center;
+  }
+}
+
+.three .col {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background: #1b1a1a;
+}
+
+.three .col.red {
+  background: #422e2e;
+}
+
+.three .col.green {
+  background: #2e442c;
+}
+
+.three .col.purple {
+  background: #252638;
+}
+
+.three .col svg {
+  height: 4rem;
+  width: 4rem;
+}
+
+/* Secure Color */
+.three .col.red svg {
+  fill: #7a4343;
+}
+/* Pricing Color */
+.three .col.purple svg {
+  fill: #3c4072;
+}
+/* Features Color */
+.three .col.green svg {
+  fill: #3f723b;
+}
+
+.three .col h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #383b61;
+}
+
+/* Secure */
+.three .col.red h2 {
+  color: #7a4343;
+}
+/* Features */
+.three .col.green h2 {
+  color: #3f723b;
+}
+/* Pricing */
+.three .col.purple h2 {
+  color: #3c4072;
+}
+
+.three .col small {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6a7076;
+}
+
+.three .col.red small {
+  color: #7a4343;
+}
+
+.three .col.green small {
+  color: #3f723b;
+}
+
+.three .col.purple small {
+  color: #3c4072;
+}
+
+.link {
+  cursor: pointer;
+  color: #474769;
+  margin-left: 0.2rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+button.download {
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #474769;
+  transition: background-color 200ms;
+}
+
+button.download:hover {
+  background-color: #474769;
+}

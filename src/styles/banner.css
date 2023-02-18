@@ -1,0 +1,40 @@
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100vw;
+  height: 2rem;
+  backdrop-filter: blur(1rem);
+  background-color: #1b1a1a;
+}
+
+.banner .title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6a7076;
+}
+
+.banner button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6a7076;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  transition: color 200ms;
+}
+
+.banner button:hover {
+  cursor: pointer;
+  color: #c3c3f0;
+}
